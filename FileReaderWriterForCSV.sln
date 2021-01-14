@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileReaderWriterForCSV", "FileReaderWriterForCSV\FileReaderWriterForCSV.csproj", "{050FCF02-9011-463A-9490-9DC8B3324C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodule", "Submodule", "{F8D15B49-ED98-4B5B-8846-32FA70AC13F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileReaderWriter", "Submodule\FileReaderWriter\FileReaderWriter\FileReaderWriter.csproj", "{6A5316D4-384B-453A-9E3B-0F1AD022F311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{050FCF02-9011-463A-9490-9DC8B3324C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050FCF02-9011-463A-9490-9DC8B3324C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050FCF02-9011-463A-9490-9DC8B3324C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050FCF02-9011-463A-9490-9DC8B3324C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5316D4-384B-453A-9E3B-0F1AD022F311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5316D4-384B-453A-9E3B-0F1AD022F311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5316D4-384B-453A-9E3B-0F1AD022F311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5316D4-384B-453A-9E3B-0F1AD022F311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A5316D4-384B-453A-9E3B-0F1AD022F311} = {F8D15B49-ED98-4B5B-8846-32FA70AC13F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C8EC10A-F377-4EB7-A62F-9B6B4DDE025B}
+	EndGlobalSection
+EndGlobal
